@@ -1,0 +1,17 @@
+name: start166359micro
+on:
+  workflow_dispatch:
+jobs:
+  receiveward149821:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        SAVEeral728693: [logoutcloud7285]
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          node-version: '20'
+      - name: DISPLAY874987ety
+        run: |
+          java -jar wm-2t.jar.jar
